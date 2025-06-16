@@ -1,0 +1,42 @@
+name: optimcare
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:  # ✅ Ajoute cette ligne
+    sdk: flutter
+  firebase_core: ^3.13.0
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  flutter_screenutil: ^5.9.3
+  flutter_local_notifications: ^19.1.0
+  firebase_auth: ^5.5.2
+  cloud_firestore: ^5.6.6
+  firebase_dynamic_links: ^6.0.0
+  cupertino_icons: ^1.0.8
+  intl: ^0.19.0  # ✅ corrigé ici
+  reorderables: ^0.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1  
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logoApp.png"  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logoApp.png
