@@ -1,16 +1,27 @@
-# nurse
+# OptimCare – Application Mobile de Suivi Clinique
 
-A new Flutter project.
+OptimCare est une application mobile développée en Flutter avec Firebase (Authentication, Firestore), conçue pour faciliter le suivi clinique des patients et optimiser le travail des infirmiers et superviseurs médicaux.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Fonctionnalités principales
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 Authentification sécurisée avec récupération automatique du mot de passe par email  
+- ⏰ Notifications automatiques toutes les 2 heures pour rappeler la vérification des patients  
+- 📄 Sauvegarde et consultation des documents médicaux au format PDF  
+- 🩺 Examen clinique complet réalisé par les infirmiers  
+- 🎨 Coloration dynamique des dossiers patients selon la gravité de leur état  
+- 👩‍⚕️ Gestion des utilisateurs par le superviseur : réinitialisation des mots de passe et contrôle des activités  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies utilisées
+
+- Flutter  
+- Firebase Authentication  
+- Firestore  
+- Firebase Cloud Messaging (notifications)  
+- Packages Flutter pour gestion des PDF  
+
+---
+
